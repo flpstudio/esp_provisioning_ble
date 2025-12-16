@@ -29,7 +29,7 @@ android {
         namespace 'com.ogabrielinacio.esp_provisioning_ble'
     }
 
-    compileSdkVersion 33
+    compileSdkVersion 36
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

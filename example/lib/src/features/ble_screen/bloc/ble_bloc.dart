@@ -150,9 +150,6 @@ class BleBloc extends Bloc<BleEvent, BleState> {
         case geo.LocationPermission.unableToDetermine:
           emit(PermissionLocationUnableToDetermine());
           add(LocationPermissionRequestEvent());
-        default:
-          emit(PermissionLocationUnableToDetermine());
-          add(LocationPermissionRequestEvent());
       }
     });
 
