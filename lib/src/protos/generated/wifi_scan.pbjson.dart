@@ -1,15 +1,13 @@
-// This is a generated file - do not edit.
 //
-// Generated from wifi_scan.proto.
-
-// @dart = 3.3
+//  Generated code. Do not modify.
+//  source: wifi_scan.proto
+//
+// @dart = 2.12
 
 // ignore_for_file: annotate_overrides, camel_case_types, comment_references
-// ignore_for_file: constant_identifier_names
-// ignore_for_file: curly_braces_in_flow_control_structures
-// ignore_for_file: deprecated_member_use_from_same_package, library_prefixes
-// ignore_for_file: non_constant_identifier_names, prefer_relative_imports
-// ignore_for_file: unused_import
+// ignore_for_file: constant_identifier_names, library_prefixes
+// ignore_for_file: non_constant_identifier_names, prefer_final_fields
+// ignore_for_file: unnecessary_import, unnecessary_this, unused_import
 
 import 'dart:convert' as $convert;
 import 'dart:core' as $core;
@@ -57,8 +55,8 @@ const RespScanStart$json = {
 };
 
 /// Descriptor for `RespScanStart`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List respScanStartDescriptor =
-    $convert.base64Decode('Cg1SZXNwU2NhblN0YXJ0');
+final $typed_data.Uint8List respScanStartDescriptor = $convert.base64Decode(
+    'Cg1SZXNwU2NhblN0YXJ0');
 
 @$core.Deprecated('Use cmdScanStatusDescriptor instead')
 const CmdScanStatus$json = {
@@ -66,8 +64,8 @@ const CmdScanStatus$json = {
 };
 
 /// Descriptor for `CmdScanStatus`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List cmdScanStatusDescriptor =
-    $convert.base64Decode('Cg1DbWRTY2FuU3RhdHVz');
+final $typed_data.Uint8List cmdScanStatusDescriptor = $convert.base64Decode(
+    'Cg1DbWRTY2FuU3RhdHVz');
 
 @$core.Deprecated('Use respScanStatusDescriptor instead')
 const RespScanStatus$json = {
@@ -119,14 +117,7 @@ final $typed_data.Uint8List wiFiScanResultDescriptor = $convert.base64Decode(
 const RespScanResult$json = {
   '1': 'RespScanResult',
   '2': [
-    {
-      '1': 'entries',
-      '3': 1,
-      '4': 3,
-      '5': 11,
-      '6': '.WiFiScanResult',
-      '10': 'entries'
-    },
+    {'1': 'entries', '3': 1, '4': 3, '5': 11, '6': '.WiFiScanResult', '10': 'entries'},
   ],
 };
 
@@ -141,60 +132,12 @@ const WiFiScanPayload$json = {
   '2': [
     {'1': 'msg', '3': 1, '4': 1, '5': 14, '6': '.WiFiScanMsgType', '10': 'msg'},
     {'1': 'status', '3': 2, '4': 1, '5': 14, '6': '.Status', '10': 'status'},
-    {
-      '1': 'cmd_scan_start',
-      '3': 10,
-      '4': 1,
-      '5': 11,
-      '6': '.CmdScanStart',
-      '9': 0,
-      '10': 'cmdScanStart'
-    },
-    {
-      '1': 'resp_scan_start',
-      '3': 11,
-      '4': 1,
-      '5': 11,
-      '6': '.RespScanStart',
-      '9': 0,
-      '10': 'respScanStart'
-    },
-    {
-      '1': 'cmd_scan_status',
-      '3': 12,
-      '4': 1,
-      '5': 11,
-      '6': '.CmdScanStatus',
-      '9': 0,
-      '10': 'cmdScanStatus'
-    },
-    {
-      '1': 'resp_scan_status',
-      '3': 13,
-      '4': 1,
-      '5': 11,
-      '6': '.RespScanStatus',
-      '9': 0,
-      '10': 'respScanStatus'
-    },
-    {
-      '1': 'cmd_scan_result',
-      '3': 14,
-      '4': 1,
-      '5': 11,
-      '6': '.CmdScanResult',
-      '9': 0,
-      '10': 'cmdScanResult'
-    },
-    {
-      '1': 'resp_scan_result',
-      '3': 15,
-      '4': 1,
-      '5': 11,
-      '6': '.RespScanResult',
-      '9': 0,
-      '10': 'respScanResult'
-    },
+    {'1': 'cmd_scan_start', '3': 10, '4': 1, '5': 11, '6': '.CmdScanStart', '9': 0, '10': 'cmdScanStart'},
+    {'1': 'resp_scan_start', '3': 11, '4': 1, '5': 11, '6': '.RespScanStart', '9': 0, '10': 'respScanStart'},
+    {'1': 'cmd_scan_status', '3': 12, '4': 1, '5': 11, '6': '.CmdScanStatus', '9': 0, '10': 'cmdScanStatus'},
+    {'1': 'resp_scan_status', '3': 13, '4': 1, '5': 11, '6': '.RespScanStatus', '9': 0, '10': 'respScanStatus'},
+    {'1': 'cmd_scan_result', '3': 14, '4': 1, '5': 11, '6': '.CmdScanResult', '9': 0, '10': 'cmdScanResult'},
+    {'1': 'resp_scan_result', '3': 15, '4': 1, '5': 11, '6': '.RespScanResult', '9': 0, '10': 'respScanResult'},
   ],
   '8': [
     {'1': 'payload'},
@@ -212,3 +155,4 @@ final $typed_data.Uint8List wiFiScanPayloadDescriptor = $convert.base64Decode(
     'c3VsdBgOIAEoCzIOLkNtZFNjYW5SZXN1bHRIAFINY21kU2NhblJlc3VsdBI7ChByZXNwX3NjYW'
     '5fcmVzdWx0GA8gASgLMg8uUmVzcFNjYW5SZXN1bHRIAFIOcmVzcFNjYW5SZXN1bHRCCQoHcGF5'
     'bG9hZA==');
+
